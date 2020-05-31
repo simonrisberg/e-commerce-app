@@ -40,7 +40,7 @@ class SignIn extends React.Component {
                         name='email' 
                         type='email' 
                         value={this.state.email}
-                        label='email' 
+                        label='Email' 
                         handleChange={this.handleChange}
                         required 
                     />
@@ -49,7 +49,7 @@ class SignIn extends React.Component {
                         type='password' 
                         value={this.state.password} 
                         handleChange={this.handleChange}
-                        label='password'
+                        label='Password'
                         required 
                     />
                     <div className='buttons'>
